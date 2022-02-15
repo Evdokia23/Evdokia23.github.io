@@ -1,0 +1,132 @@
+*{
+	box-sizing: border-box;
+}
+.header{
+	margin-top: 80px;
+	text-align: center;
+	font-size: 24px; /*размер шрифта*/
+}
+.header span{
+	font-weight: 300; /*нежирный шрифт*/
+	display: block;
+}
+body{
+	font-family: Tahoma; /*стиль шрифта*/
+	line-height: 1.5; /*межстрочный интервал*/
+	color: #333333;
+} 
+.header strong {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.section{
+	padding: 30px 10%; /*отступы свержу и по краями */
+}
+.main{
+	margin-top: 80px;
+	text-align: center;
+}
+.video, .form{
+	display: inline-block; /*делаем теги строчн-блочными*/
+
+	vertical-align: top; /*выравниваются по вертикали по верхней линии*/
+}
+.form{
+	padding: 20px;
+	text-align: center;
+	border: 5px solid #2727d9;
+	margin-left: 30px;
+}
+.form input{
+	width: 300px;
+	color: #333333;
+	font-size: 18px;
+	padding: 15px; /*внутрение отступы*/
+	margin-top: 10px;
+	display: block;
+}
+.font-header{
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+	margin-bottom: 35px;
+}
+.form-bt{
+	background-color: #2727d9;
+	font-weight: 900;
+	font-size:18px;
+	border: none;
+	width: 300px;
+	height: 60px;
+	color: #fff;
+	margin-top: 10px;
+}
+.col{
+display: inline-block;
+text-align: center;
+margin: 10px 35px;
+
+}
+.feature-header{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+}
+.feature-block{
+		text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.feature{
+	margin-top: 60px;
+}
+.text{
+	font-size: 16px;
+	font-weight: 900;
+}
+.feature-bdn
+{
+	background-color: #2727d9;
+	font-weight: 900;
+	font-size:18px;
+	border: none;
+	width: 300px;
+	height: 60px;
+	color: #fff;
+	margin-top: 10px;
+	display: block;
+	margin: 11px auto;
+}
+.photo{
+	
+	display: inline-block;
+    margin: 20px;
+    height: 120px;
+    width: 226px;
+}
+.block_object-fit{
+	display: inline-block;
+    background: url(C:/Users/Evdokiya/Documents/New_HTML_project/src/img/1.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+}
+.block_object-fit2{
+	display: inline-block;
+    background: url(C:/Users/Evdokiya/Documents/New_HTML_project/src/img/2.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+}
+.block_object-fit3{
+	display: inline-block;
+    background: url(C:/Users/Evdokiya/Documents/New_HTML_project/src/img/3.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+}
+
+.block_object-fit4{
+	display: inline-block;
+    background: url(C:/Users/Evdokiya/Documents/New_HTML_project/src/img/4.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+}
+
