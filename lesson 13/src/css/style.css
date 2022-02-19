@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+}
+.header{
+	margin-top: 28px;
+	width: 1360px;
+	height: 221px;
+	background-color: #fff794;
+	display: inline-block;
+}
+.menu{
+	margin-top: 20px;
+	display: inline-block;
+	width: 30%;
+	height: 500px;
+	background-color: #94ff97;
+	margin-right: 20px;
+}
+
+.content{
+	margin-top: 20px;
+	margin-left: -4px;
+	display: inline-block;
+	width: 65%;
+	height: 500px;
+	background-color: #ab94ff;
+}
+
+/*медиа запросы помогают делать сайт адаптивным */
+@media (max-width: 600px){
+	.menu{
+		width: 95%;
+		background-color: blue;
+	}
+	.content{
+		width: 95%;
+		background-color: red;
+	}
+	.header{
+		width: 95%;
+	}
+}
