@@ -1,0 +1,69 @@
+.maket{
+	text-align: center;
+	margin-top:100px;
+	width: 320px;
+	height: 370px;
+	background-color: #fbfdfd;
+	margin-left: 40%;
+	position: relative;
+}
+.label{
+	width: 150px;
+	height: 19px;
+	margin-left: 35px;
+	position: absolute;
+	top: -7px;
+	padding: 4px;
+
+	text-align: center;
+	background-color: #01b9b9;
+}
+body{
+		text-align: center;
+		background-color: #e4f0f0;
+}
+input{
+	/*margin-top: 26px;
+	margin-left: 26px;*/
+	display: block;
+	width: 260px;
+	height: 30px;
+	background-color: #e4f0f0;
+
+}
+button{
+	background-color: #01b9b9;
+	margin-top: 34px;
+	width: 260px;
+	height: 45px;
+}
+p {
+	font-size: 15px;
+	font-weight: 700;
+	color: 333333;
+	text-align: left;
+	font-family: Arial; 
+	color: #01b9b9;
+	letter-spacing: -1px;
+}
+.text{
+	font-size: 19px;
+	font-weight: 700;
+	text-align: center;
+	font-family: Arial; 
+	color: white;
+	text-transform: uppercase;
+}
+.label{
+	font-size: 11px;
+	
+	}
+.inputs{
+/*	background-color: red;
+*/	position: absolute;
+	width: 260px;
+	height: 285px;
+	left: 9%;
+	top: 50px;
+	background-color: #fbfdfd;
+}
