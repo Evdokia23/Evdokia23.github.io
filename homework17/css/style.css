@@ -1,0 +1,47 @@
+/*создание переменных для цветова сайта*/
+/*базовые настройки */
+html {
+  font-size: 10px;
+}
+.button {
+  background-color: #f9b002;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  /*закругляет концы кнопки */
+  text-transform: uppercase;
+  border: none;
+}
+/*типографика*/
+section {
+  /*отступы в секциях*/
+  padding: 10rem 0;
+  /*10 rem = 100 px ; 1 rem = 10px*/
+}
+/*main*/
+main {
+  padding: 3rem 0;
+}
+.header {
+  height: 7rem;
+}
+.phone-link {
+  height: 7rem;
+  line-height: 7rem;
+  /*выравнивание по центру*/
+  display: inline-block;
+  color: #1a1820;
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+/*автоматическое выравниввание по центру*/
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
