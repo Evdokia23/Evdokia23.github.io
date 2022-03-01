@@ -1,0 +1,74 @@
+/*
+@font-face {
+    font-family: 'Lato';
+    src: url('C:/Users/Evdokiya/Documents/modul 5/lesson 17/АРХИВ С ДЗ (14 УРОК)/font/Lato-Black.eot');
+    src: url('C:/Users/Evdokiya/Documents/modul 5/lesson 17/АРХИВ С ДЗ (14 УРОК)/font/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('C:/Users/Evdokiya/Documents/modul 5/lesson 17/АРХИВ С ДЗ (14 УРОК)/font/Lato-Black.woff2') format('woff2'),
+        url('C:/Users/Evdokiya/Documents/modul 5/lesson 17/АРХИВ С ДЗ (14 УРОК)/font/Lato-Black.woff') format('woff'),
+        url('C:/Users/Evdokiya/Documents/modul 5/lesson 17/АРХИВ С ДЗ (14 УРОК)/font/Lato-Black.ttf') format('truetype'),
+        url('C:/Users/Evdokiya/Documents/modul 5/lesson 17/АРХИВ С ДЗ (14 УРОК)/font/Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Cyrillic';
+    src: url('C:/Users/Evdokiya/Documents/modul 5/lesson 17/АРХИВ С ДЗ (14 УРОК)/fontBebasNeueCyrillic.woff2') format('woff2'),
+        url('C:/Users/Evdokiya/Documents/modul 5/lesson 17/АРХИВ С ДЗ (14 УРОК)/fontBebasNeueCyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*/
+@font-face {
+    font-family: 'Lato';
+    src: url('font/Lato-Black.eot');
+    src: url('font/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-Black.woff2') format('woff2'),
+        url('font/Lato-Black.woff') format('woff'),
+        url('font/Lato-Black.ttf') format('truetype'),
+        url('font/Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Cyrillic';
+    src: url('font/BebasNeueCyrillic.woff2') format('woff2'),
+        url('font/BebasNeueCyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+}
+.bebas{
+	font-family: 'Bebas Neue Cyrillic';
+}
+.lato{
+	font-family: 'Lato';
+}
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+
+.Open_sans{
+	font-family: 'Open Sans', sans-serif;
+}
+.lobster{
+	font-family: 'Lobster', cursive;
+}
