@@ -9,6 +9,6 @@
 
 [четвертый урок](Evdokia23.github.io/homework17/project.html) - шапка сайта 
 
-[пятый урок](https://evdokia23.github.io/%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%A1%20%D0%94%D0%97%20(14%20%D0%A3%D0%A0%D0%9E%D0%9A)/index.html) - скачивание шрифтов
+[пятый урок](https://evdokia23.github.io/%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%A1%20%D0%94%D0%97%20(14%20%D0%A3%D0%A0%D0%9E%D0%9A)/index.html) - разные стили шрифтов
 
 [шестой урок](https://evdokia23.github.io/lesson_modul/js/index.html) - всплывающие окна
