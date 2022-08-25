@@ -1,0 +1,53 @@
+/* ключевые кадры анимации */
+@keyframes move{
+	/*первый кадр анимации*/
+	from{
+		margin-left: 0;
+	}
+	/*промежуточные кадры*/
+	10%{
+		margin-left: 20px;
+	}
+/*последний кадр анимации*/
+	to{
+		margin-left: 400px;
+	}
+}
+@keyframes coloring{
+	/*первый кадр анимации*/
+	from{
+		background-color: yellow;
+	}
+	/*промежуточные кадры*/
+	10%{
+		background-color: yellow;
+	}
+/*последний кадр анимации*/
+	to{
+		background-color: purple;
+
+	}
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	/*можно задать все одним*/
+	animation: move 1s linear forwards, coloring 1s linear forwards;
+
+	/*состаяние анимацияяя до и после наведения*/
+	/*animation-fill-mode: forwards;*/
+
+	/*задаем анимацию*/
+	/*animation-name: move;*/
+	/*продолжительность анимации*/
+	/*animation-duration: 3s;*/
+	/*готовые временные функции */
+	/*animation-timing-function: ease;*/
+	/*задержка анимации*/
+	/*animation-delay: 0.5s;*/
+	/*направление анимации*/
+	/*animation-direction: reverse;*/
+	/*позволяет запустить анимацию несколько раз*/
+	/*animation-iteration-count: infinite;*/
+}
